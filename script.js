@@ -75,3 +75,32 @@ const isFullAge = ageWife >= 18;
 console.log(now-1991>now-1888);
 
 console.log(25-10-5);*/
+
+
+
+const firstName="Paul";
+const job="Senior Software Engineer";
+const birthYear= 2005;
+const year= 2027;
+
+const paul="I'm " + firstName + ',a ' + (year-birthYear)+" year old "+ job + "!";
+
+console.log(paul);
+
+const paulNew=`I'm ${firstName},a ${year-birthYear} year old ${job}!`;
+
+console.log(paulNew);
+
+console.log(`I can proudly say that I desereve everything I have right Now!`)
+
+console.log(`He\n\
+is\n\
+who\n\
+He\n\
+is!`);
+
+console.log(`He
+is
+who
+He
+is!`);
