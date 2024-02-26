@@ -42,7 +42,7 @@ js="not amazing";*/
 
 
 //math operatores 
-
+/*
 const now= 2037;
 const agePaul = now - 2005;
 const ageWife = now - 2008;
@@ -74,4 +74,4 @@ const isFullAge = ageWife >= 18;
 
 console.log(now-1991>now-1888);
 
-console.log(25-10-5);
+console.log(25-10-5);*/
