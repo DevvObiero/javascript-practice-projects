@@ -77,7 +77,7 @@ console.log(now-1991>now-1888);
 console.log(25-10-5);*/
 
 
-
+/*
 const firstName="Paul";
 const job="Senior Software Engineer";
 const birthYear= 2005;
@@ -103,4 +103,4 @@ console.log(`He
 is
 who
 He
-is!`);
+is!`);*/

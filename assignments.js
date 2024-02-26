@@ -51,5 +51,20 @@ GOOD LUCK �
  */
 
 
+const country="Kenya";
+let population= 54300000;
+const language ="Swahili"
+let finlandPopulation = 6000000;
+const avgPopulation = 33000000;
+const description =`${country} is  not in Europe, and its ${population} people speak ${language}`;
+
+
+
+console.log(population/2);
+population++;
+console.log(population);
+console.log(population>finlandPopulation);
+console.log(population<avgPopulation);
+console.log(description);
 
 
