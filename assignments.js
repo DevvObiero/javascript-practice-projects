@@ -49,7 +49,7 @@ m tall.
 m tall.
 GOOD LUCK � 
  */
-
+/*
 
 const country="Kenya";
 let population= 54300000;
@@ -65,6 +65,6 @@ population++;
 console.log(population);
 console.log(population>finlandPopulation);
 console.log(population<avgPopulation);
-console.log(description);
+console.log(description);*/
 
 

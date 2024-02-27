@@ -104,3 +104,25 @@ is
 who
 He
 is!`);*/
+/*
+const firstName="Charles";
+const age=2;
+const isOldEnough=age>=18;
+
+if(isOldEnough){
+console.log(`${firstName} is old enough to drive a car!🐱‍👤`)
+}else{
+const yearsLeft=18-age;
+console.log(`${firstName} is too young to drive and should wait for another ${yearsLeft}🐷 `)
+}
+
+
+const birthYear=2005;
+let centuryYear;
+if(birthYear<=2000){
+     century=20;
+}else {
+     century=21;
+}
+
+console.log(century);*/
