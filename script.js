@@ -138,7 +138,7 @@ console.log('I am' + '23' +'years old')
 console.log('23'/'10'/'3')
 */
 //gues the output
-
+/*
 let n='1'+1;
 n=n-1;
 console.log(n);
@@ -148,4 +148,28 @@ if(height){
      console.log('YAYYYY! Height is defined');
 }else{
      console.log('height is UNDEFINED')
+}
+*//*
+
+//equality ===
+const age=18;
+if (age===18)console.log('you just became an adult╰(*°▽°*)╯')
+
+//lose eawuality operator
+18==18*/
+
+
+const favourite=Number(prompt("what's your favourite country"));
+console.log(favourite);
+
+if(favourite===25){
+     console.log("nice!! 25 is a cool number")
+}else if(favourite===9){
+     console.log('Nice ! 9 is a coooool number')
+}else{
+     console.log('this is a really boring number.Try again!!! ')
+}
+
+if(favourite!==25){
+     console.log('why not 25 ?')
 }
