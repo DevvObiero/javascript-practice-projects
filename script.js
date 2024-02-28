@@ -158,7 +158,7 @@ if (age===18)console.log('you just became an adult╰(*°▽°*)╯')
 //lose eawuality operator
 18==18*/
 
-
+/*
 const favourite=Number(prompt("what's your favourite country"));
 console.log(favourite);
 
@@ -172,4 +172,37 @@ if(favourite===25){
 
 if(favourite!==25){
      console.log('why not 25 ?')
+}*/
+// const hasDriverLincence=true;
+// const hasGoodVision=true;
+
+// console.log(hasDriverLincence&&hasGoodVision)
+// console.log(hasDriverLincence||hasGoodVision)
+
+// console.log(!hasDriverLincence||hasGoodVision)
+
+// const shouldDrive=hasDriverLincence&&hasGoodVision;
+
+
+
+// if(shouldDrive){
+//      console.log('you should drive')
+// }else{
+//      console.log('someone else should drive for you');
+// }
+
+const isTired=true;
+const hasDriverLincence=true;
+const hasGoodVision=true;
+
+console.log(hasDriverLincence&&hasGoodVision)
+console.log(hasDriverLincence||hasGoodVision)
+
+console.log(!hasDriverLincence||hasGoodVision)
+
+const shouldDrive=hasDriverLincence&&hasGoodVision&&!isTired;
+
+if(shouldDrive){
+     console.log('you should drive')
+}else{console.log('You should not drive')
 }
