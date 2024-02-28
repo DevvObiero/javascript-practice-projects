@@ -126,3 +126,26 @@ if(birthYear<=2000){
 }
 
 console.log(century);*/
+
+/*
+const inputYear="1991";
+console.log(Number(inputYear),inputYear);
+console.log(Number(inputYear)+18);
+console.log(String("12"))
+
+console.log('I am ' +23+' years old')
+console.log('I am' + '23' +'years old')
+console.log('23'/'10'/'3')
+*/
+//gues the output
+
+let n='1'+1;
+n=n-1;
+console.log(n);
+
+let height;
+if(height){
+     console.log('YAYYYY! Height is defined');
+}else{
+     console.log('height is UNDEFINED')
+}

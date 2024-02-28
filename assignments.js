@@ -49,10 +49,10 @@ m tall.
 m tall.
 GOOD LUCK � 
  */
-/*
 
+/*
 const country="Kenya";
-let population= 54300000;
+let population= 543000;
 const language ="Swahili"
 let finlandPopulation = 6000000;
 const avgPopulation = 33000000;
@@ -65,6 +65,34 @@ population++;
 console.log(population);
 console.log(population>finlandPopulation);
 console.log(population<avgPopulation);
-console.log(description);*/
+console.log(description);
+if(population>33000000){
+    console.log("Kenya's Population is above average")
+}else{
+    console.log(`Kenya's Population is ${avgPopulation-population} below average`)
+}*/
+/*
+LECTURE: Type Conversion and Coercion
+1. Predict the result of these 5 operations without executing them:
+'9' - '5';
+'19' - '13' + '17';
+'19' - '13' + 17;
+'123' < 57;
+5 + 6 + '4' + 9 - 4 - 2;
+2. Execute the operations to check if you were righ
+*/
 
+// five falsy values 0,'',undefined ,null ,NaN
+/*
+console.log(Boolean(0))
+console.log(Boolean(undefined))
+console.log(Boolean("paul"))
+console.log(Boolean({}))
+console.log(Boolean('0.20000000000000'))
 
+const money=0;
+if(money){
+    console.log("You are a baller");
+}else{
+    console.log("you should gt a job");
+}*/
