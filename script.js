@@ -191,18 +191,45 @@ if(favourite!==25){
 //      console.log('someone else should drive for you');
 // }
 
-const isTired=true;
-const hasDriverLincence=true;
-const hasGoodVision=true;
+// const isTired=true;
+// const hasDriverLincence=true;
+// const hasGoodVision=true;
 
-console.log(hasDriverLincence&&hasGoodVision)
-console.log(hasDriverLincence||hasGoodVision)
+// console.log(hasDriverLincence&&hasGoodVision)
+// console.log(hasDriverLincence||hasGoodVision)
 
-console.log(!hasDriverLincence||hasGoodVision)
+// console.log(!hasDriverLincence||hasGoodVision)
 
-const shouldDrive=hasDriverLincence&&hasGoodVision&&!isTired;
+// const shouldDrive=hasDriverLincence&&hasGoodVision&&!isTired;
 
-if(shouldDrive){
-     console.log('you should drive')
-}else{console.log('You should not drive')
+// if(shouldDrive){
+//      console.log('you should drive')
+// }else{console.log('You should not drive')
+// }
+
+// const scoreDolphins=(96+108+89)/3;
+// const scoreKoalas=(88+91+110)/3;
+// console.log(scoreDolphins,scoreKoalas)
+
+// if(scoreDolphins>scoreKoalas){console.log('Dolphins win!!🐱‍👤')
+// }else if( scoreKoalas>scoreDolphins){
+//      console.log('Koalas win!!🐨')
+// }else if(scoreDolphins===scoreKoalas){
+//      console.log('Its a tie🦥')
+// }
+
+//BONUS !
+const scoreDolphins=(97+112+80)/3;
+const scoreKoalas=(109+95+50)/3;
+
+
+console.log(scoreDolphins,scoreKoalas)
+
+if(scoreDolphins>scoreKoalas&&scoreDolphins>=100){console.log('Dolphins win!!🐱‍👤')
+}else if( scoreKoalas>scoreDolphins&&scoreKoalas>=100){
+     console.log('Koalas win!!🐨')
+}else if(scoreDolphins===scoreKoalas&&scoreDolphins>=100&&scoreKoalas>=100)
+    {console.log('Its a tie🦥')
+}else{
+     console.log('No one wins the trophy😫(Score of 100 not meet by any)')
 }
