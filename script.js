@@ -207,3 +207,48 @@ if(favourite!==25){
 // }else{console.log('You should not drive')
 // }
 
+
+
+//statements 1
+
+// const day ='Wednesday';
+// switch(day){
+//      case'Monday':
+//      // console.log('plan my course stracture');
+//      console.log('Go to coding meet up');
+//      break;
+//      case 'Tuesday':
+//           console.log('prepare theory videos')
+//           break;
+//      case 'Wednesday':
+//      case 'Thursday':
+//           console.log('write code examples') 
+//      break;
+//      case 'Friday':
+//           console.log('go to the gym')
+//           break;
+//      case 'Saturday':
+//      case 'Sunday':
+//           console.log('take her out and enjoy the weekend')
+//      break;
+//      default:
+//           console.log('Not a valid day')                            
+// }
+
+
+let day = 'Thursday';
+if(day==='Monday'){
+     console.log('plan my course stracture');
+     console.log('Go to coding meet up');
+}else if(day==='Tuesday'){
+     console.log('prepare theory videos');
+}else if(day==='Wednesday'||'Thursday'){
+     console.log('write code examples');
+}else if(day==='Friday'){
+     console.log('go to the gym');
+}else if(day==='Saturday'|| 'Sunday'){
+     console.log('Take her out and enjoy the day')
+}else{
+     console.log('Not a valid day')
+}
+
