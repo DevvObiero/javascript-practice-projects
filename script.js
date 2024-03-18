@@ -253,12 +253,57 @@ if(favourite!==25){
 // }
 
 
-const greet = function(greeting){
-     return function(Firstname) {
-          console.log(`${greeting}${Firstname} `);
-     }
-}
+// const greet = function(greeting){
+//      return function(Firstname) {
+//           console.log(`${greeting}${Firstname} `);
+//      }
+// }
 
-const greeterHey =greet('hey');
-greeterHey('Paul');
-greeterHey('John');
+// const greeterHey =greet('hey');
+// greeterHey('Paul');
+// greeterHey('John');
+
+
+// const kenyaAirways = {
+//      airline: 'Kenya Airways',
+//      airCode:'KE',
+//      bookings:[],
+//      book:function(flightNumber,firstNAme){
+//           console.log(`${firstNAme} booked a seat on ${this.airline} 
+//           flight${this.airCode}${flightNumber}`
+//           );
+//           this.bookings.push({
+//                flightNumber:flightNumber,
+//                firstNAme:firstNAme
+//           });
+//      }
+// };
+// kenyaAirways.book(239,"Paul");
+// console.log(kenyaAirways)
+
+// const kenyaPlaneways = {
+//      itsName:'kenyaPlaneways',
+//      airNumber:'EK',
+//      bookings:[],
+     
+// };
+// const book=kenyaAirways.book;
+// // book(23,"Sarah Williams");
+
+// book.call(kenyaPlaneways,23,'Martin Oloo');
+// console.log(kenyaPlaneways)
+
+// const swissArlines={
+//      airline:'Swiss Airways',
+//      airCode:'SA',
+//      bookings:[],
+   
+//      }
+// book.call(swissArlines,23,"Alisson Miles")
+// console.log(swissArlines);
+
+// //apply method
+
+// const flightData=[583,"George Adams"];
+// book.apply(swissArlines,flightData);
+// console.log(swissArlines);
