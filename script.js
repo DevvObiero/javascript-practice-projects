@@ -236,19 +236,29 @@ if(favourite!==25){
 // }
 
 
-let day = 'Thursday';
-if(day==='Monday'){
-     console.log('plan my course stracture');
-     console.log('Go to coding meet up');
-}else if(day==='Tuesday'){
-     console.log('prepare theory videos');
-}else if(day==='Wednesday'||'Thursday'){
-     console.log('write code examples');
-}else if(day==='Friday'){
-     console.log('go to the gym');
-}else if(day==='Saturday'|| 'Sunday'){
-     console.log('Take her out and enjoy the day')
-}else{
-     console.log('Not a valid day')
+// let day = 'Thursday';
+// if(day==='Monday'){
+//      console.log('plan my course stracture');
+//      console.log('Go to coding meet up');
+// }else if(day==='Tuesday'){
+//      console.log('prepare theory videos');
+// }else if(day==='Wednesday'||'Thursday'){
+//      console.log('write code examples');
+// }else if(day==='Friday'){
+//      console.log('go to the gym');
+// }else if(day==='Saturday'|| 'Sunday'){
+//      console.log('Take her out and enjoy the day')
+// }else{
+//      console.log('Not a valid day')
+// }
+
+
+const greet = function(greeting){
+     return function(Firstname) {
+          console.log(`${greeting}${Firstname} `);
+     }
 }
 
+const greeterHey =greet('hey');
+greeterHey('Paul');
+greeterHey('John');
