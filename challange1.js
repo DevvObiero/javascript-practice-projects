@@ -44,3 +44,17 @@ if(markHigherBMI){
 // }else{
 //      console.log('No one wins the trophy😫(Score of 100 not meet by any)')
 // }
+
+const book={
+    title: 'The Hobbit',
+    author: 'Paul Obiero',
+    isbn: '978-1491947130',
+    price: 109.99,
+    stock: 100
+}
+const info = function(){
+    console.log(`${title} was written by ${author}`)
+}
+
+// const infodetails =info();
+// console.log(infodetails)*
